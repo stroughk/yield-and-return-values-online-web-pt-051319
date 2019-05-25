@@ -8,5 +8,5 @@ def hello(array)
   end
 end
 
-binging.pry 
+binding.pry 
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
